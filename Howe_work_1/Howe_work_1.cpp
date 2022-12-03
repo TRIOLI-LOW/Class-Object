@@ -1,9 +1,10 @@
 ﻿#include <iostream>
 #include <Windows.h>
 class Calculator {
-public:
+private:
 	int num1 = 0;
 	int num2 = 0;
+public:
 	double add() {
 		return num1 + num2;
 	}

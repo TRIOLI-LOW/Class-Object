@@ -1,4 +1,4 @@
 ﻿  Howe_work_1.cpp
-C:\Users\Murko\Desktop\netology\Базовое Программирование\3_Class & Object\Howe_work_1\Howe_work_1.cpp(26,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\Murko\Desktop\netology\Базовое Программирование\3_Class & Object\Howe_work_1\Howe_work_1.cpp(33,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Murko\Desktop\netology\Базовое Программирование\3_Class & Object\Howe_work_1\Howe_work_1.cpp(28,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Murko\Desktop\netology\Базовое Программирование\3_Class & Object\Howe_work_1\Howe_work_1.cpp(35,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
   Howe_work_1.vcxproj -> C:\Users\Murko\Desktop\netology\Базовое Программирование\3_Class & Object\Howe_work_1\x64\Debug\Howe_work_1.exe

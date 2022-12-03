@@ -1,8 +1,10 @@
 ﻿#include<Windows.h>
 #include <iostream>
 class Counter {
-public:
+private: 
 	int num = 0;
+public:
+	
 	int plus() {
 		return ++num;
 	}
@@ -15,10 +17,9 @@ public:
 	int nach() {
 		return num = 1;
 	}
-	int init(int n) {
-		num = n;
-		return num;
-	}
+	Counter (int num) {
+		this->num = num;
+	};
 };
 int main()
 {
@@ -33,7 +34,7 @@ int main()
 	const char res = '=';
 	const char exit = 'x';
 	char com = ' ';
-	Counter count;
+	
 
 	std::cout << "Вы хотите указать начальньное значение счетчика? Введите да или нет: ";
 	std::cin >> v;
@@ -44,16 +45,20 @@ int main()
 				std::cin >> v;
 				std::cout << std::endl;	
 		}
-		if (v == n) {
-			count.nach();
-		}
-		else {
+		if (v == y) {
 			std::cout << "Введите начальное значение счетчика: ";
 			std::cin >> num;
-			count.init(num);
+			
+		}
+		Counter count(num);
+		if(v == n) {
+			
+			count.nach();
 		
 	}
+		
 	while (com != exit) {
+	
 		std::cout << "Введите команду('+', '-', '=' или 'x'): ";
 		std::cin >> com;
 		switch (com) {
